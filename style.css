@@ -1,0 +1,241 @@
+/* Import fonts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* BASE ROOT */
+
+html{
+    font-size: 112.5%; /* 16 px */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #515151;
+    background-color: #fbe9dd;
+}
+
+/* section{
+    padding: 2rem 9%;
+} */
+
+.container{
+    width: 100%;
+    margin: 40px auto;
+}
+
+/* .title, h1, h2, h3, h4, p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.title{
+    font-size: 5.063em;
+    font-weight: 700;
+} */
+
+/* h1{
+    font-size: 3.75em;
+    line-height: 1.25em;
+}
+
+h2{
+    font-size: 2.25em;
+    font-weight: 600;
+    line-height: 1em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: inline;
+    border-bottom: solid 4px #313131;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+h4{
+    font-size: 444em;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.55em;
+    margin: 30px 0 15px 0;
+
+} */
+
+/* HEADER */
+#header-wrapper{
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo, span, nav{
+    text-transform: uppercase;
+}
+
+.logo img{
+    max-width: 220px;
+    max-height: 100px;
+    background-size: contain;
+    margin:  -5px 55px 45px -75px ;
+    position: absolute;
+}
+
+
+/* Navigation */
+.navbar ul{
+    overflow: auto;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    margin: 18px 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #313131;
+    display: block;
+    padding: 3px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hover effect was adopted from this source, https://css-tricks.com/css-link-hover-effects/ */
+.navbar a {
+    color: #313131;
+    position: relative;
+    text-decoration: none;
+  }
+
+.navbar a::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #313131;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;      
+}
+
+.navbar a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.product-list{
+    background-color: #fbe9dd;
+}
+
+.home{
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.home img{
+    height: auto;
+    width: 650px;
+}
+
+.content{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+.home-text{
+    width: 780;
+    margin-top: -450px;
+    margin-left: 600px;
+    text-align: left;
+}
+ 
+
+ .home-text h1{
+    font-size: 60px;
+    width: 750px;
+    text-transform: capitalize;
+    margin-bottom: auto;
+ }
+
+ .home-text p{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+ }
+
+ /* for button and hovering, https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+ button{
+    background: transparent;
+    color: #313131;
+    text-decoration: none;
+    border: 3px solid #FE036A;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+ }
+
+ button:hover{
+    background: #FE036A;
+    color: #fff;
+    text-decoration: none;
+ }
+
+
+
+.home .image img{
+    /* width: 50%;
+    padding: 1rem; */
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateY(3rem); 
+    }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+    
+}
