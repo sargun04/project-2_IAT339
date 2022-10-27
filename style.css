@@ -224,6 +224,120 @@ header{
     animation: float 3s linear infinite;
 }
 
+.violet{
+    margin-top: 15%;
+}
+.container-footer-1600{
+	display:block;
+	margin:0 auto;
+	width: clamp(20rem,80%,100rem);
+}
+
+.footer-grid-wrapper h5{
+	font-family: 'poppins', sans-serif;
+	margin:0;
+	font-size:1rem;
+}
+
+.footer-grid-wrapper{
+	color: #313131;
+	display:grid;
+	grid-template-rows:3fr 1fr;
+}
+
+.footer-copyright-wrapper{
+	text-align:center;
+	grid-row:2;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+
+.footer-copyright-wrapper p{
+	font-size:.75rem;
+	width:clamp(45ch,50%,75ch);
+}
+
+.footer-list-wrapper{
+	grid-row:1;
+	display:flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width:100%;
+
+	font-family:'poppins', sans-serif;
+	font-weight:lighter;
+}
+
+.footer-list-wrapper a:hover{
+	text-decoration:underline;
+}
+
+.footer-icons-wrapper a:hover{
+	text-decoration:none;
+}
+
+.footer-grid-wrapper ul{
+	list-style-type:none;
+	margin:1rem 0;
+	padding:0;
+}
+
+.footer-instagram-link{
+	display:flex;
+	align-content: center;
+	align-items: center;
+}
+
+.footer-instagram-link img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.mochi-logo {
+    width: 150px;
+    height: 70px;
+    margin-left: -14%;
+}
+
+
+
+.footer-icons-wrapper p{
+	display:inline;
+	font-family:"poppins", sans-serif;
+	margin-left:10px;
+}
+
+.footer-list-wrapper a{
+	color: #313131;
+	text-decoration:none;
+}
+.footer-icons-wrapper, .footer-location-wrapper, .footer-hours-wrapper, .footer-contact-wrapper, .footer-help-wrapper{
+	display:flex;
+	flex-direction: column;
+}
+
+
+.footer-days-wrapper-mobile, .footer-hours-wrapper-mobile{
+	display:none;
+}
+
+.footer-list-wrapper > .divider-line{
+	background-color: #313131;
+	display:none;
+	width: 100%;
+}
+
+li{
+	margin-bottom: .4rem;
+}
+
+ul{
+	margin-bottom: 1rem;
+}
+
 @keyframes float{
     0%, 100%{
         transform: translateX(0rem);
