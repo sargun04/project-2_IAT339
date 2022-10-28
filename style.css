@@ -9,6 +9,12 @@ html{
     font-size: 112.5%; /* 16 px */
 }
 
+.white{
+	background-color: white;
+	border:1px solid #CCC;
+	color: black;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -219,8 +225,6 @@ header{
 
 
 .home .image img{
-    /* width: 50%;
-    padding: 1rem; */
     animation: float 3s linear infinite;
 }
 
@@ -337,6 +341,73 @@ li{
 
 ul{
 	margin-bottom: 1rem;
+}
+
+.value-proposition-section white{
+    background-color: #fff;
+
+}
+
+.value-proposition-section .main-grid-container{
+	padding-top: 0;
+}
+
+.value-proposition-section h2{
+	font-size:2rem;
+}
+
+.value-proposition-section{
+	grid-column:1/span 12;
+	padding:12rem 0;
+    margin-top: 8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.donut-grid-wrapper{
+	grid-column:1/span 6;
+	padding:1rem;
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.donut-grid-wrapper img{
+    margin-left: 50%;
+	width:40%;
+    align-items: center;
+}
+
+.value-proposition-cta-wrapper{
+	grid-column:7/span 6;
+	padding:4rem;
+   
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.value-proposition-cta-wrapper h1{
+    font-size: 36px;
+    font-weight: 200;
+     margin-top: -50%;
+}
+
+.value-proposition-cta-wrapper h2{
+	margin-bottom: 0;
+}
+
+.value-proposition-cta-wrapper p{
+	width:clamp(45ch, 100%, 75ch);
+}
+
+.value-proposition-cta-wrapper a{
+	align-self: flex-start;
+}
+
+.value-proposition-cta-wrapper button{
+    margin-top: 20%;
 }
 
 @keyframes float{
