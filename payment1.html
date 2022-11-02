@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Refered From: https://www.w3schools.com/howto/howto_css_checkout_form.asp -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/payment1.css">
+    <!-- <link rel="stylesheet" href="css/payment.css"> -->
+
+    <title>Payment Page</title>
+</head>
+
+<body>
+    <!-- header, logo -->
+    <div class="container">
+        <div id-="header-wrapper">
+            <header>
+                <a href="hero">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.png"></a>
+                        <!-- <h1><span>Mochi, style guide.</span></h1> -->
+                    </div>
+                </a>
+                <!-- navigation bar -->
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="styleguide.html">Style Guide</a></li>
+                        <li><a href="about.html">Who we are</a></li>
+
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <!-- Product Details -->
+
+    <div class="container2">
+        <h3>Order Summary</h3>
+        <div class="divide1">
+            <div class="divison">
+                <img src="img/cinnamon_nobg.png" alt="Cinnamon Bun">
+            </div>
+            <div class="divison" id="div2">
+                
+                    <h2>Cinnamon Donut</h2>
+                    <h4>Quantity:1</h4>
+                    <h4>Price: 5.5$</h4>
+                    <h4>Taxes: 0.5$</h4>
+
+                    <h3>Total:6$</h3>
+
+                
+            </div>
+        </div>
+    </div>
+    <!-- Payment form -->
+    <div class="container1">
+        <form action="">
+            <h3>Shipping Details</h3>
+            <div class="Payment-Address">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="firstname">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+
+                <div class="divide">
+                    <div class="division">
+                        <label for="Country">Country</label>
+                        <input type="text" id="Country" name="Country">
+
+
+                    </div>
+                    <div class="division">
+                        <label for="Area-Code">Area Code</label>
+                        <input type="text" id="Area-Code" name="Area-Code">
+                    </div>
+                </div>
+            </div>
+            <h3>Card Details</h3>
+
+            <div class="Card-Address">
+                <label for="Cno">Card Number</label>
+                <input type="number" id="Cno" name="Cno">
+                <div class="divide">
+                    <div class="division">
+                        <label for="CVC">CVC</label>
+                        <input type="number" id="CVC" name="CVC">
+
+                    </div>
+                    <div class="division">
+                        <label for="Date">Expiration-date</label>
+                        <input type="month" id="Date" name="Date">
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Pay Now" class="btn">
+        </form>
+    </div>
+
+</body>
+
+</html>
