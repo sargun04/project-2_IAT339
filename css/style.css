@@ -57,7 +57,6 @@ a{
 
 .white{
 	background-color: white;
-	border:1px solid #CCC;
 	color: black;
 }
 
@@ -414,6 +413,60 @@ ul{
     margin-top: 20%;
 }
 
+/* Recommendation section */
+.recommendation-section .main-grid-container{
+	padding-top: 0;
+    margin-left: 23%;
+}
+
+.recommendation-section{
+	grid-column:1/span 12;
+	padding: 10rem 0;
+	display: flex;
+	align-content: center;
+}
+ 
+.recommendation-section h1{
+	margin-top: -6%;
+    margin-bottom: 9%;
+	text-align: center;	
+	align-content: center;
+	display: block;
+}
+
+.recommendation-section > .main-grid-container{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.featured-products-wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width:140%;
+    margin-right: 2%;
+	/* margin:-10px auto; */
+}
+
+.featured-products-wrapper h3{
+    /* font-weight: -bold; */
+    margin-top: 2%;
+}
+
+.featured-products-wrapper img{
+	width:clamp(150px, 100vw, 230px);
+}
+
+.recommended-donut-wrapper{
+	text-align: center;
+	margin:0 1.25rem;
+}
+
+.recommendation-section button,a{
+	margin:0;
+}
 
 @keyframes float{
     0%, 100%{
