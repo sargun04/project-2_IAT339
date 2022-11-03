@@ -5,9 +5,55 @@
 
 /* BASE ROOT */
 
+/* html{
+    font-size: 112.5%;
+} */
+
 html{
-    font-size: 112.5%; /* 16 px */
+	scroll-behavior: smooth;
 }
+
+/* TYPOGRAPHY */
+
+body{
+	font-family:montserrat, sans-serif;
+/*	background-color: #6339A1;*/
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size:4rem;
+	margin:0;
+}
+
+h2{
+	font-size:2rem;
+}
+
+h3{
+	font-size:1.5rem;
+	font-weight: normal;
+}
+
+h4{
+	font-size:1.25rem;
+	font-weight: normal;
+}
+
+
+p{
+	font-size:1rem;
+	font-family: "ubuntu mono", monospace;
+	font-weight: 400;
+}
+
+a{
+	color:#001AFF;
+	display:inline-block;
+	/*transition: transform .2s; *//* Animation */
+}
+
 
 .white{
 	background-color: white;
@@ -22,7 +68,7 @@ html{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: montserrat, sans-serif;
     color: #515151;
     background-color: #fbe9dd;
 }
@@ -35,51 +81,6 @@ body{
     width: 100%;
     margin: 40px auto;
 }
-
-/* .title, h1, h2, h3, h4, p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #313131;
-}
-
-.title{
-    font-size: 5.063em;
-    font-weight: 700;
-} */
-
-/* h1{
-    font-size: 3.75em;
-    line-height: 1.25em;
-}
-
-h2{
-    font-size: 2.25em;
-    font-weight: 600;
-    line-height: 1em;
-    text-transform: capitalize;
-    margin-top: 20px;
-    display: inline;
-    border-bottom: solid 4px #313131;
-    padding-bottom: 10px;
-}
-
-h3{
-    font-size: 1.5em;
-    text-transform: capitalize;
-}
-
-h4{
-    font-size: 444em;
-    text-transform: uppercase;
-}
-
-p{
-    font-size: 1em;
-    line-height: 1.55em;
-    margin: 30px 0 15px 0;
-
-} */
 
 /* HEADER */
 #header-wrapper{
@@ -169,40 +170,40 @@ header{
 
 .home img{
     height: auto;
-    width: 650px;
+    width: 650px; 
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .content{
     width: 1130px;
     max-width: 85%;
-    margin: 0 auto;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: -80px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
  }
 
 .home-text{
-    width: 780;
-    margin-top: -450px;
-    margin-left: 600px;
+    width: 780px;
+    margin-top: -550px;
+    margin-left: 500px;
     text-align: left;
+    padding-left: 10%;
 }
  
 
  .home-text h1{
-    font-size: 60px;
-    width: 750px;
-    text-transform: capitalize;
-    margin-bottom: auto;
+    font-size: 4rem;
+    width: 650px;
+    line-height: 120%;
  }
 
- .home-text p{
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    line-height: 28px;
-    margin-bottom: 45px;
+ .home-text button{
+    margin-top: 15%;
  }
-
  /* for button and hovering, https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
  button{
     background: transparent;
@@ -298,7 +299,6 @@ header{
 .footer-instagram-link img{
     width: 20px;
     height: 20px;
-
 }
 
 .mochi-logo {
@@ -352,8 +352,9 @@ ul{
 	padding-top: 0;
 }
 
-.value-proposition-section h2{
-	font-size:2rem;
+.value-proposition-section-cta-wrapper h1{
+    font-family: montserrat, sans-serif;
+	font-size:4rem;
 }
 
 .value-proposition-section{
@@ -361,6 +362,8 @@ ul{
 	padding:12rem 0;
     margin-top: 8rem;
 	display: flex;
+    padding-top: 10%;
+    padding-bottom: 0%;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -374,32 +377,33 @@ ul{
 }
 
 .donut-grid-wrapper img{
-    margin-left: 50%;
-	width:40%;
+    margin-left: 48%;
+    margin-bottom: 4%;
+	width:50%;
     align-items: center;
 }
 
 .value-proposition-cta-wrapper{
 	grid-column:7/span 6;
 	padding:4rem;
-   
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.value-proposition-cta-wrapper h1{
-    font-size: 36px;
-    font-weight: 200;
-     margin-top: -50%;
+.value-proposition-cta-wrapper h2{
+    font-size: 2rem;
+    width: 650px;
+    font-weight: bold;
+    margin-top: -50%;
 }
 
 .value-proposition-cta-wrapper h2{
-	margin-bottom: 0;
+	margin-bottom: 1%;
 }
 
 .value-proposition-cta-wrapper p{
-	width:clamp(45ch, 100%, 75ch);
+	width:clamp(20ch, 100%, 65ch);
 }
 
 .value-proposition-cta-wrapper a{
@@ -409,6 +413,7 @@ ul{
 .value-proposition-cta-wrapper button{
     margin-top: 20%;
 }
+
 
 @keyframes float{
     0%, 100%{
