@@ -110,5 +110,5 @@ input[type=submit]:hover
 background-color: #ba034f;
 }
 img{
-  width:80%;
+  max-width:80%;
 }
