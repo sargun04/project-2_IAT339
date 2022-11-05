@@ -468,16 +468,6 @@ ul{
 	margin:0;
 }
 
-@keyframes float{
-    0%, 100%{
-        transform: translateX(0rem);
-    }
-    50%{
-        transform: translateY(3rem); 
-    }
-}
-
-/* Media Queries */
 
 @media screen and (max-width:70em){
 	.footer-list-wrapper{
