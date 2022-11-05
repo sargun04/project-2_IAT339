@@ -468,10 +468,16 @@ ul{
 	margin:0;
 }
 
+/* @keyframes float{
+    0%, 100%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateY(3rem); 
+    }
+} */
 
-@media screen and (max-width:70em){
-	.footer-list-wrapper{
-		padding-left:0;
-		padding-right:0;
-	}
-}
+/* Media Queries */
+
+/* @media screen(max-width: 700px) {
+} */
