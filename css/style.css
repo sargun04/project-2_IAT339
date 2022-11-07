@@ -305,6 +305,9 @@ header{
     margin-left: -14%;
 }
 
+.mochi-logo img{
+    margin-top: 40%;
+}
 .footer-icons-wrapper p{
 	display:inline;
 	font-family:"poppins", sans-serif;
