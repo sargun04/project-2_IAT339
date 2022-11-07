@@ -270,7 +270,6 @@ header{
 	align-items: baseline;
 	justify-content: space-between;
 	width:100%;
-
 	font-family:'poppins', sans-serif;
 	font-weight:lighter;
 }
@@ -301,13 +300,12 @@ header{
 }
 
 .mochi-logo {
-    width: 170px;
+    width: 185px;
     height: 70px;
     margin-left: -14%;
 }
 
-
-
+.footer-icons-wrapper .mochi-logo
 .footer-icons-wrapper p{
 	display:inline;
 	font-family:"poppins", sans-serif;
