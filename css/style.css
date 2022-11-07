@@ -300,9 +300,10 @@ header{
 }
 
 .mochi-logo {
-    width: 185px;
-    height: 70px;
-    margin-left: -14%;
+    width: 120px;
+    height: 40px;
+    margin-left: 8%;
+    margin-top: 80%;
 }
 
 .mochi-logo img{
