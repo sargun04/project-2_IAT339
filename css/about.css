@@ -41,7 +41,7 @@
  .about-text h2{
     font-size: 2rem;
     text-transform: capitalize;
-    margin-left: -64%;
+    margin-left: -0.5%;
     margin-top: -5%;
  }
 
@@ -149,7 +149,8 @@
    font-family: "Poppins", sans-serif;
  }
  
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 900px) {
+
    .top-form .inner-form {
      width: 100%;
      margin: 5px 0;
