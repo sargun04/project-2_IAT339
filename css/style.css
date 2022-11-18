@@ -169,7 +169,7 @@ header{
 
 .home img{
     height: auto;
-    width: 650px; 
+    max-width: 50%;
     margin-right: 10%;
     margin-bottom: 10%;
 }
