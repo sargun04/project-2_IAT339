@@ -38,11 +38,11 @@
    /* text-indent: -99999px; */
 }
 
- .about-text h1{
-    font-size: 60px;
+ .about-text h2{
+    font-size: 2rem;
     text-transform: capitalize;
-    
-    margin-bottom: auto;
+    margin-left: -64%;
+    margin-top: -5%;
  }
 
  .about-text p{
@@ -51,6 +51,120 @@
     line-height: 28px;
     margin-bottom: 45px;
  }
+
+ .wrapper {
+   margin:0 auto;
+   /* width: %; */
+   min-width: 60%;
+   max-width: 648px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-sizing: border-box;
+   background-color: #fff;
+ }
+
+ /* content */
+ .content-contact{
+   text-align: center;
+   background-color: #fff;
+ }
+ 
+ .content-contact h2 {
+   letter-spacing: 1px;
+   text-decoration: underline;
+   text-underline-position: under;
+ }
+ 
+ 
+ /* form */
+ .form {
+   width: 80%;
+   margin: 25px 0;
+ }
+ 
+ .top-form,
+ .middle-form,
+ .bottom-form {
+   width: 100%;
+   min-height: 65px;
+   margin: 10px 0;
+ }
+ 
+ .form input[type="text"],
+ .form textarea {
+   border: 2px solid #515151;
+   padding: 10px 5px;
+   outline: none;
+   border-radius: 6px;
+   width: 100%;
+   transition: all 0.2s ease;
+ }
+ 
+ .form input:focus,
+ .form textarea:focus {
+   border-color: #FE036A;
+   outline: none;
+   box-shadow: inset 0 1px 1px #FE036A,
+     0 0 8px #FE036A;
+ }
+ 
+ .form .label {
+   margin-bottom: 5px;
+   text-transform: capitalize;
+ }
+ 
+ /* top-contact */
+ .top-form .inner-form {
+   width: 29.9%;
+   float: left;
+   margin-right: 5%;
+ }
+ 
+ .top-form .inner-form:last-child {
+   margin-right: 0;
+ }
+ 
+ 
+ /* middle-form */
+ .middle-form {
+   clear: both;
+ }
+
+ .bottom-form{
+   margin-bottom: 25px;
+ }
+ 
+ ::-webkit-input-placeholder {
+   /* Chrome/Opera/Safari */
+   font-family: "Poppins", sans-serif;
+ }
+ ::-moz-placeholder {
+   /* Firefox 19+ */
+   font-family: "Poppins", sans-serif;
+ }
+ :-ms-input-placeholder {
+   /* IE 10+ */
+   font-family: "Poppins", sans-serif;
+ }
+ 
+ @media screen and (max-width: 460px) {
+   .top-form .inner-form {
+     width: 100%;
+     margin: 5px 0;
+   }
+   .top-form,
+   .middle-form,
+   .bottom-form {
+     margin: 5px 0;
+   }
+   .form {
+     margin-top: 10px;
+   }
+ }
+
+
 
  /* for button and hovering, https://www.sliderrevolution.com/resources/css-button-hover-effects/
  button{
