@@ -1,5 +1,5 @@
 /* for styling part https://www.youtube.com/watch?v=K_64Xmm3OcA, i followed this tutorial */
-
+/* https://thebrandsmen.com/css-image-hover-effects/ */
 *{
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@
 }
 
 .about-text{
-    width: 550px;
+    width: 50%;
 }
  .main{
     width: 1130px;
@@ -52,9 +52,56 @@
     margin-bottom: 45px;
  }
 
+.event img{
+  margin-left: 50%;
+  height: auto;
+  width: 40%;
+}
+
+.event-text h2{
+  font-size: 2rem;
+    text-transform: capitalize;
+    /* margin-left: -0.5%;
+    margin-top: -15%; */
+}
+
+.event-text p{
+  letter-spacing: 1px;
+  width: 35%;
+  line-height: 28px;
+  /* margin-bottom: 45px;
+  margin-top: -15%; */
+}
+
+.event-text{
+  margin-top: -16%;
+  margin-bottom: 20%;
+  margin-left: 13%;
+}
+
+.about img{
+  transition: 1s ease;
+}
+
+.about img:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
+
+.event img{
+  transition: 1s ease;
+}
+
+.event img:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
  .wrapper {
    margin:0 auto;
-   /* width: %; */
    min-width: 60%;
    max-width: 648px;
    padding: 20px;
@@ -94,7 +141,7 @@
  
  .form input[type="text"],
  .form textarea {
-   border: 2px solid #515151;
+   border: 1px solid #515151;
    padding: 10px 5px;
    outline: none;
    border-radius: 6px;
@@ -162,6 +209,10 @@
    }
    .form {
      margin-top: 10px;
+   }
+
+   .img{
+
    }
  }
 
