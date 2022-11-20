@@ -87,13 +87,24 @@ header{
 }
 
 .logo img{
+    /* background: url(logo.png)no-repeat; no repeat-image shown only once */
+    max-width: 220px;
+    max-height: 100px;
+    background-size: contain;
+    margin:  -5px 55px 45px -75px ;
+    position: absolute;
+    /* text-indent: -99999px; */
+ }
+ 
+
+/* .logo img{
     max-width: 20%;
     max-height: 10%;
-    background-size: contain;
+    background-size: contain; */
     /* margin:10%; */
     /* margin:  -5px 55px 45px -75px ; */
-    position: absolute;
-}
+    /* position: absolute;
+} */
 
 
 /* Navigation */
@@ -151,7 +162,7 @@ header{
     background-color: #fbe9dd;
 }
 
-button{
+/* button{
     background: transparent;
     color: #313131;
     text-decoration: none;
@@ -167,7 +178,7 @@ button{
     background: #FE036A;
     color: #fff;
     text-decoration: none;
- }
+ } */
 
 
 
@@ -628,8 +639,8 @@ ul{
     border: 3px solid #FE036A;
     font-size: 18px;
     font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    border-radius: 25px;
     transition: .4s;
  }
 
