@@ -1,33 +1,88 @@
+@media (min-width:1100px) {
+    .products {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        grid-gap: 1rem;
+    }
+}
 
-@media (min-width:1000px) {
-    
-}
-.center-text{
+@media(max-width:600px) {
+    .products {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        text-align: center;
+        /* margin-left:20%;
+        margin-right:20%;
+        margin-top: 5%; */
+        grid-gap: 1rem;
+    }
 
-    text-align: center;
-    margin-top: 5rem;;
+    .products img {
+        width: 75%;
+    }
+
+    .products h2 {
+        font-size: medium;
+    }
+    .products p{
+    font-size: small;
+    }
+
 }
-.center-text h1{
-    size: 3em;
-}
-.products{
+
+
+.products {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
     text-align: center;
-    margin-left:20%;
-    margin-right:20%;
+    /* margin-left:20%;
+    margin-right:20%; */
     margin-top: 5%;
     grid-gap: 1rem;
 
 }
-.products .product1{
+
+.center-text {
+
+    text-align: center;
+    margin-top: 5rem;
+    ;
+}
+
+.center-text h1 {
+    size: 3em;
+}
+
+.products .product1 {
     /* padding:1rem; */
     background: linear-gradient(180deg, #6E483C 0%, rgba(110, 72, 60, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid white;
+
+}
+
+.products .product2 {
+    padding: 1rem;
+    background: linear-gradient(180deg, #D9AC8C 0%, rgba(245, 245, 245, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.products .product3{
+    padding:1rem;
+    background: linear-gradient(180deg, #E9B283 0%, rgba(245, 245, 245, 0) 100%);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.products .product2{
-    padding:1rem;
-    background: linear-gradient(180deg, #D9AC8C 0%, rgba(245, 245, 245, 0) 100%);
+.products .product4{
+    background: linear-gradient(180deg, #E809FC 0%, rgba(245, 245, 245, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.products .product5{
+    background: linear-gradient(180deg, #6E483C 0%, rgba(110, 72, 60, 0) 100%);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
