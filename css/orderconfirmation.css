@@ -1,0 +1,62 @@
+/*CONFIRMATION PAGE ----------------------------------------------------------------------------------*/
+
+.right-side-menu.pink.confirmation {
+    background-color: #FE036A;
+    color: white;
+    }
+
+#order-info{
+	margin-left: 10%;
+	max-width: 38%;
+}
+
+#order-info h2{
+	margin-top:3.75rem;
+	margin-bottom:0rem;
+}
+
+#order-info h4{
+	margin-top:1.25rem;
+	margin-bottom:0rem;
+}
+
+.order-info-number p{
+	margin-top:0rem;
+	font-size:1.25rem;
+}
+
+.order-info-message p{
+	font-size:1.25rem;
+}
+
+.order-info-message{
+	margin-top:3.125rem;
+}
+
+.order-info-exit{
+	display:flex;
+	flex-direction:row;
+	align-items:baseline;
+	margin-top:3.125rem;
+	margin-bottom:2.5rem;
+}
+
+.order-info-exit p{
+	margin-left:1.25rem;
+	font-weight:700;
+	font-size:1rem;
+}
+
+.order-info-exit a{
+	color:#FE036A;
+}
+
+.right-side-menu.pink.confirmation{
+	height:100vh;
+}
+
+.checkout-product-preview-menu.mobile{
+	margin-top:2.5rem;
+	visibility: hidden;
+	position:fixed;
+}
