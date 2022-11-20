@@ -79,6 +79,25 @@
 
 }
 
+/* .detail{
+position: absolute; 
+  top: 40%; 
+  background: rgb(0, 0, 0); */
+  /* background: rgba(0, 0, 0, 0.5); Black see-through */
+  /* color: #f1f1f1; 
+  width: 30%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product1:hover .detail {
+    opacity: 1;
+  } */
+
 .products .product2 {
     padding: 1rem;
     background: linear-gradient(180deg, #D9AC8C 0%, rgba(245, 245, 245, 0) 100%);
